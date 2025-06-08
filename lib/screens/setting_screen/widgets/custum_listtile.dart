@@ -5,14 +5,14 @@ import 'package:qrcodereader/utils/appcolors/app_colors.dart';
 class Custum_listile extends StatefulWidget {
   final String my_title;
   final String my_subtitle;
-  final Widget trailing_image;
+  final Widget? trailing_image;
   final Widget leading_image;
 
   Custum_listile({
     super.key,
     required this.my_title,
     required this.my_subtitle,
-    required this.trailing_image,
+    this.trailing_image,
     required this.leading_image,
   });
 

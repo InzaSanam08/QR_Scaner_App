@@ -37,6 +37,9 @@ dependencies:
   flutter_svg: ^2.0.7
   flutter_screenutil: ^5.9.3
   provider: ^6.1.5
+  camera: ^0.10.5+5
+  qr_flutter: ^4.1.0
+  barcode_scanner: ^7.0.0
 
 dev_dependencies:
   flutter_test:
@@ -64,7 +67,12 @@ flutter:
   assets:
     - lib\utils\assets\second_screen_logo.svg
     - lib\utils\assets\splash_logo.svg
-    - lib\view_modal\setting_screen_logic\
+    # setting_screen_icons
+    - lib\utils\setting_screen_icons\beep_icon.svg
+    - lib\utils\setting_screen_icons\privecy_icon.svg
+    - lib\utils\setting_screen_icons\rate_icon.svg
+    - lib\utils\setting_screen_icons\share_icon.svg
+    - lib\utils\setting_screen_icons\vibrate_icon.svg
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
 

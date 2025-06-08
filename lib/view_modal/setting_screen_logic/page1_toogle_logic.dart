@@ -11,3 +11,10 @@ class Page_1_logic extends ChangeNotifier {
   }
 
 }
+
+
+
+
+
+
+                    //  or provider ke zariyea mene us ki logic likhi he ab jab b me kisi ak button ko on off karta hu to uske behalf pe dusra button khud on of ho raha he 
